@@ -1,0 +1,17 @@
+[project]
+name = "language-classifier-modeling"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "juliagreene2001", email = "julia.greene1963@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+language-classifier-modeling = "language_classifier_modeling:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
